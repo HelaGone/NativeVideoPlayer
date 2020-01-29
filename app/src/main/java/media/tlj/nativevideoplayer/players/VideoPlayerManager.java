@@ -125,7 +125,7 @@ public class VideoPlayerManager {
                 player.prepare(mediaSource, false, false);
                 player.seekTo(currentWindow, playbackPosition);
             }
-        }
+        }//END AUDIO FOCUS RESULT
 
     }
 
@@ -209,7 +209,7 @@ public class VideoPlayerManager {
 
 
     /*SETTER METHODS*/
-    public void setMediaSource(String videoUrl){
+    public void setLiveMediaSource(String videoUrl){
         videoUrlString = videoUrl;
     }
 

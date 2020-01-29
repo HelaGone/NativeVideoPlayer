@@ -45,7 +45,7 @@ public class PlayerActivity extends AppCompatActivity {
                 final DaiAdWrapper daiAdWrapper = new DaiAdWrapper(this, videoPlayerManager, (ViewGroup) findViewById(R.id.adUiContainer));
                 daiAdWrapper.setFallbackUrl(FALLBACK_URL);
                 daiAdWrapper.requestAndPlayAds();
-                videoPlayerManager.setMediaSource(signal);
+                videoPlayerManager.setLiveMediaSource(signal);
             }else {
 
                 Bundle bundle = getIntent().getExtras();

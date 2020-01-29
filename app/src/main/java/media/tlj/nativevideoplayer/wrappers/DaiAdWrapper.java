@@ -91,7 +91,7 @@ public class DaiAdWrapper implements AdEvent.AdEventListener, AdErrorEvent.AdErr
         return new VideoStreamPlayer() {
             @Override
             public void loadUrl(String mediaUrl, List<HashMap<String, String>> list) {
-                mVideoPlayerManager.setMediaSource(mediaUrl);
+                mVideoPlayerManager.setLiveMediaSource(mediaUrl);
                 mVideoPlayerManager.startPlaying();
             }
 
@@ -144,7 +144,7 @@ public class DaiAdWrapper implements AdEvent.AdEventListener, AdErrorEvent.AdErr
 
     @Override
     public void onAdError(AdErrorEvent adErrorEvent) {
-        mVideoPlayerManager.setMediaSource(mFallbackUrl);
+        mVideoPlayerManager.setLiveMediaSource(mFallbackUrl);
         mVideoPlayerManager.enableControls(true);
         mVideoPlayerManager.startPlaying();
     }

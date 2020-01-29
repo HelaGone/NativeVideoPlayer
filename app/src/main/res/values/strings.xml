@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Native Video Player</string>
+    <string name="app_name">NVP</string>
     <string name="play_img_btn">Play Button</string>
     <string name="lbl_las_estrellas">Las Estrellas</string>
     <string name="lbl_vod">VOD</string>
