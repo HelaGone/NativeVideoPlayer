@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Native Video Player</string>
+    <string name="play_img_btn">Play Button</string>
+    <string name="lbl_las_estrellas">Las Estrellas</string>
+    <string name="lbl_vod">VOD</string>
+    <string name="lbl_shows">SHOWS</string>
+    <string name="lbl_live">LIVE</string>
+
+    <!--MEDIA URLS-->
+    <string name="senal_dai_estrellas">https://dai.google.com/linear/hls/event/_e1s_U52SCGL6zTnlTrbVQ/master.m3u8</string>
+    <string name="senal_vod_ftv">https://api.anvato.net/v2/feed/KSNFKBUBPAWUIZU3P2GAGWC/?sort=c_ts_publish_l+desc&amp;count=30</string>
+
+    <string name="senal_dai_ftv">https://dai.google.com/linear/hls/event/2d-hH7xGQ0Wd6jIbEkztYQ/master.m3u8</string>
+
+    <!--PUBADS-->
+    <string name="pubads_prerol">"https://pubads.g.doubleclick.net/gampad/ads?iu=/5644/televisanews.information/forotv-live&amp;description_url=[placeholder]&amp;env=vp&amp;impl=s&amp;correlator=&amp;tfcd=0&amp;npa=0&amp;gdfp_req=1&amp;output=vast&amp;sz=1x1&amp;unviewed_position_start=1"</string>
+
+</resources>
